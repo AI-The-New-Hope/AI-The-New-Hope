@@ -16,7 +16,8 @@ The change to physical laws may be something minor (e.g. a perturbation), or som
 Let's say group 1 has 4 students. They decide to modify gravity and study it by observing orbital periods around some object.
 
 You could change the force of gravity to include another term:
-    F_{g} = \frac{G m_{1} m_{2}}{r^{2}} -> G m_{1} m_{2} \left( r^{-2} + A r^{-3} \right)
+    $F_{g} = \frac{G m_{1} m_{2}}{r^{2}} -> G m_{1} m_{2} \left( r^{-2} + A r^{-3} \right)$
+
 
 This is one of the few times I will say you don't need to really worry about units, but in my example, A has units length.
 
@@ -24,6 +25,7 @@ Some group members will work on coding the experiment.
 Split it up into multiple functions and define some workflow to run through each stage.
 
 These functions could be:
+
     def new_gravity(m1, m2):
         code that computes equation above
         return F_{g}
