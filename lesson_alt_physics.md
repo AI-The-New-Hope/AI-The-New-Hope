@@ -13,7 +13,7 @@ The change to physical laws may be something minor (e.g. a perturbation), or som
 
 ### Example
 
-Let's say group 1 has 4 students. They decide to modify gravity and study it by observing orbital periods around some object.
+Let's say one group has some students. They decide to modify gravity and study it by observing orbital periods around some object.
 
 You could change the force of gravity to include another term:
     $F_{g} = \frac{G m_{1} m_{2}}{r^{2}} \rightarrow G m_{1} m_{2} \left( r^{-2} + A r^{-3} \right)$
